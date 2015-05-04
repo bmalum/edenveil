@@ -1,3 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'edenveil'
+
+chatter = Edenveil::Chatter.new
+chatter.say_hello
 puts "Hello"
